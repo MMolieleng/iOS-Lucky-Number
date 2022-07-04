@@ -21,10 +21,10 @@ struct ContentView: View {
             Button("Generate", action: {
                 runCount = generateNumber()
                 print("Some Number")
-            }).padding(12)
-                .background(Color(UIColor.systemIndigo))
+            }).background(Color(UIColor.systemIndigo))
                 .foregroundColor(Color.white)
                 .cornerRadius(8)
+                .buttonStyle(.bordered)
                 
         }
         .padding(10)
